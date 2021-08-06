@@ -5,7 +5,7 @@ from datetime import datetime
 import spam_teams
 
 
-RUN_COMMAND = 'edge-impulse-run-impulse'
+RUN_COMMAND = '/home/pi/.npm-global/bin/edge-impulse-run-impulse'
 detections = 0
 last_detection = datetime.now()
 last_confirmation = datetime.now()
