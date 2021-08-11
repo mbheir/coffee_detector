@@ -3,10 +3,8 @@ import json
 
 from extract_quotes import read_quote
 
-# url = 'https://silabs.webhook.office.com/webhookb2/fb53d7d8-fe80-4116-bad7-8950b263c3c9@54dbd822-5231-4b20-944d-6f4abcd541fb/IncomingWebhook/e54f7df6d4444cd7933466378feef43f/b4fb2744-6e52-48e2-ae42-0d8ce6fde3fd'
-
 # URL til #Kaffe på Teams 
-url = 'https://silabs.webhook.office.com/webhookb2/94763cb3-0096-456a-b236-fc8a6dadb0d6@54dbd822-5231-4b20-944d-6f4abcd541fb/IncomingWebhook/e75c67c9391343a58926c7aaebcbbbe2/b4fb2744-6e52-48e2-ae42-0d8ce6fde3fd'
+url = 'https://Your Teams Webhook URL here'
 
 def post_on_teams():
     null=None
